@@ -1,5 +1,7 @@
 # AngularSeed
 
+This is a Angular Template project. No magic, just for quickly startup an Angular project. The project generate by Angular CLI is not support customize webpack config by default, so this project use [angular-builders](https://github.com/just-jeb/angular-builders) to load extra webpack config. 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
 
 ## Development server
@@ -13,6 +15,10 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Customize webpack configuration
+
+Find `extra-webpack.config.js` under the root folder. For more information, check out [Custom webpack builders for Angular build facade](https://github.com/just-jeb/angular-builders/tree/master/packages/custom-webpack).
 
 ## Running unit tests
 
